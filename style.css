@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: hsl(210, 46%, 95%);
+  height: 100vh;
+}
+
+  .big-container{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+  }
+  .daniel-container{
+    background-color: hsl(263, 55%, 52%);
+    height: 200px;
+    grid-area: 1/1/2/3;
+    border-radius: 10px;
+  }
+.jonathan-container{
+  height: 200px;
+  background-color: hsl(217, 19%, 35%);
+  border-radius: 10px;
+}
+.kira-container{
+  height: 100%;
+  background-color: white;
+  grid-area: 1/4/3/5;
+  border-radius: 10px;
+}
+.jeanette-container{
+  background-color: white;
+  grid-area: 2/1/3/2;
+  border-radius: 10px;
+  
+}
+.patrick-container{
+  background-color: hsl(219, 29%, 14%);
+  grid-area: 2/2/3/4;
+  border-radius: 10px;
+  }
+  .daniel-title,
+.jeanette-title,
+.jonathan-title,
+.patrick-title,
+.kira-title{
+  display: flex;
+  align-items: center;
+}
+
+.daniel-detail,
+.jeanette-detail,
+.jonathan-detail,
+.patrick-detail,
+.kira-detail{
+  margin-left: 20px;
+}
+
+.grey-text {
+  color: grey;
+}
+.white-text {
+  color: white;
+}
+.ballon{
+  border-radius: 100%;
+}
+
+.box-box{
+  padding: 5%;
+}
+.dark-text{
+  color: darkgrey;
+}
